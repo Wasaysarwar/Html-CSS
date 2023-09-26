@@ -1,0 +1,143 @@
+.page1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    animation: rotate 5s infinite;
+    transition: 3s;
+}
+@keyframes rotate {
+    0%{
+        background-color: red;
+        position: relative;
+        top: 200px;
+    }
+    25%{
+        background-color: yellow;
+        rotate: 90deg;
+        position: relative;
+        top: 200px;
+        left: 200px;
+
+    }
+    50%{
+        background-color: blue;
+        rotate: 180deg;
+        position: relative;
+        left: 200px;
+    }
+    75%{
+        background-color: green;
+        rotate: 270deg;
+        position: relative;
+        left: 0px;
+
+    }
+    100%{
+        background:linear-gradient(left red ,yellow);
+    }
+    
+} 
+ .page1{
+    background-color: pink;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin: auto;
+     padding: 20px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    animation: rotate 5s infinite;
+    transition: 3s;
+    box-shadow: 3px 3px 10px lightcoral;
+    transition: 0.5s;
+ }
+
+
+
+    age1:hover{
+      box-shadow: -3px -3px 10px lightcoral;
+
+} 
+
+ .page1{
+      margin: 300px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px; 
+      border: 2px solid black; 
+
+
+} 
+
+ .page1:hover{
+      
+
+    transform: translate(50px, 20px); 
+
+ transform: rotate(45deg); 
+
+
+
+
+ transform: scale(1.5);
+
+ transform: skew(30deg, 20deg); 
+
+
+}
+
+ .page1{
+
+    
+
+ transform: translate(50px, 20px); 
+
+
+ transform: scale(1.5); 
+
+
+ transform: skew(30deg, 20deg); 
+ 
+ transform: matrix(a, b, c, d, tx, ty);
+
+ transform: matrix(a, b, c, d, tx, ty); 
+
+ transition: transform 0.5s ease; 
+ animation : slide 2s ,infinite;
+
+/* Example of a CSS animation */
+ @keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+
+transform: rotateX(45deg) rotateY(30deg);
+
+
+
+}  
+
+
+.page1{
+    margin: 300px   ;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+     background: #000;
+    
+    border: 9px solid #ddd;
+    border-top-color: red;
+    animation: rotate 1s infinite;
+
+
+}
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+} 
