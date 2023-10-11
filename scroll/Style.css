@@ -1,0 +1,85 @@
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .main {
+    background-color: black;
+    /* cursor: none; */
+  }
+  .page1 {
+    min-height: 100vh;
+    width: 100%;
+  }
+  #nav {
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  #nav img {
+    height: 24px;
+  }
+  #navpart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #nav #circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  #nav h4 {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #nav h4:nth-child(1) {
+    border-bottom: 1.5px solid white;
+  }
+  .pag1 h1 {
+    font-size: 8vw;
+    font-family: pp mori;
+    font-weight: 300;
+    margin-top: 10vw;
+    margin-left: 6vw;
+    color: 	#7e9a9a;
+  }
+  .pag1 h2 {
+    font-size: 8vw;
+    font-family: pp mori;
+    font-weight: 300;
+    margin-left: 26vw;
+    color: 	#7e9a9a;
+  }
+  
+  .video {
+    margin: 60%;
+    margin-top: 8vw;
+    margin-left: 20%;
+  
+    /* background-color: aqua; */
+  }
+
+  h1::selection{
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+  }
