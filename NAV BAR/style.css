@@ -1,0 +1,31 @@
+/* Style the navbar container */
+.navbar {
+    background-color: #333; /* Navbar background color */
+    padding: 10px 0; /* Padding at the top and bottom */
+}
+
+/* Style the list of navigation items */
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style each navigation item */
+.nav-item {
+    display: inline;
+    margin: 0 15px; /* Spacing between items */
+}
+
+/* Style the links within the navigation items */
+.nav-item a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Text color */
+    font-size: 18px; /* Text size */
+}
+
+/* Change the link appearance on hover */
+.nav-item a:hover {
+    color: #007BFF; /* Text color on hover */
+}
