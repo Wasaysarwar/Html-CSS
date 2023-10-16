@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.plus, .number, .equals, .result {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid #000;
+    animation: sumAnimation 3s infinite;
+}
+
+.number {
+    animation: numberAnimation 3s infinite;
+}
+
+@keyframes sumAnimation {
+    0% {
+        background: #fff;
+        transform: scale(1);
+    }
+    50% {
+        background: #00f;
+        transform: scale(1.2);
+    }
+    100% {
+        background: #fff;
+        transform: scale(1);
+    }
+}
+
+@keyframes numberAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
