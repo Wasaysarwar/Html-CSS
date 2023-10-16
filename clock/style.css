@@ -1,0 +1,55 @@
+*{
+    background: black;
+}
+
+
+
+#clock{
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+}
+#clock::selection{
+    background: black;
+    color: yellow;
+}
+
+#clock:hover{
+    /* transform: translate(12px , 6px); */
+    /* animation: change 0.5s infinite; */
+    /* background: transparent; */
+    animation: rotate 1s , change 0.5s infinite;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(45deg,red,blue,yellow);
+}
+@keyframes change {
+    0% {
+        filter: drop-shadow(10px 9px 10px blue);
+    }
+     50%{
+        filter: drop-shadow(10px 9px 10px yellow);
+     }
+     100%{
+        filter: drop-shadow(10px 9px 10px green);
+     }
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform:rotate(360deg) ;
+    }
+    
+}
