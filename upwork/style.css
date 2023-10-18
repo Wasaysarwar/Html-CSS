@@ -1,0 +1,205 @@
+.rt{
+ background-color: white;  
+ border: transparent;
+ padding: 20px;
+ font-size:18px ;
+ border-radius: 30px;
+}
+
+.rt:hover{
+    background-color: black;
+    color: white;
+}
+
+.co{
+    border-style: groove;
+    border-left: none;
+    border-right: none;
+    width: auto;
+
+}
+input{
+    height: 30px;
+    width: 250px;
+    margin-left: 200px;
+    border-radius: 20px;
+    padding-left: 40px;
+}
+#abc{
+    border: transparent;
+    background-color: white;
+    border-radius: 30px;
+   position: relative;
+   transform: translate(-50px)
+
+}
+#abc:hover{
+    background-color: black;
+    color: white;
+}
+.was{
+  border-radius: 30px;
+  border: transparent;
+  background-color: white;
+  font-size: 15px;
+ padding-right: 2px;
+    
+}
+
+.was:hover{
+    background-color: green;
+    color:white;
+}
+/* .was{
+    padding-left: px;
+} */
+#qw{
+    position: relative;
+    transform: translate(240px,9px);
+}
+.op{
+    border-radius: 30px;
+    border: transparent;
+    background-color: white;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.op:hover {
+    background-color: black;
+    color: white;
+}
+#we{
+    color: #14a800;
+     position: relative;
+    /* transform: translate(150px,30px); */
+    font-size: 52px;
+    font-weight: bold;
+    
+}
+.clr{
+    margin: 8px;
+    color: #5e6d55;
+    font-size: 25px ;
+    font-weight: 40px;
+}
+#right{
+    position: relative;
+    transform: translate(800px,-250px);
+}
+#up{
+    position:absolute;
+    background-color: #14a800;
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: large;
+    border-radius: 30px;
+}
+#up:hover{
+    background-color: green;
+}
+h2{
+    position: relative;
+    transform: translate(0px,-300px);
+}
+#op{
+    color: #5e6d55;
+    border-radius: 30px;
+}
+.img{
+    position: relative;
+    transform: translate(0px,-300px);
+    word-spacing: 20px;
+}
+#rest{
+    position: relative;
+    transform: translate(4px,-200px);
+    padding-left: 40px;
+}
+#ter{
+    position: relative;
+    transform: translate(500px,-560px);
+    font-size:40px;
+}
+#sar{
+   position: relative;
+   transform: translate(500px,-560px);
+}
+#sars{
+    position: relative;
+   transform: translate(550px,-625px);  
+   font-size: 30px;
+}
+#wars{
+    position: relative;
+   transform: translate(550px,-650px);
+}
+#uo{
+    position: relative;
+   transform: translate(500px,-620px);
+}
+#ut{
+    position: relative;
+    transform: translate(550px,-685px);
+    font-size: 30px;    
+}
+#sports{
+    position: relative;
+    transform: translate(550px,-710px);     
+}
+#asia{
+    position: relative;
+    transform: translate(500px,-680px);
+}
+#az{
+    position: relative;
+    transform: translate(550px,-740px);
+    font-size: 30px;
+}
+#ax{
+    position: relative;
+    transform: translate(550px,-760px);
+}
+#ac{
+    position: relative;
+    transform: translate(550px,-740px);     
+    background-color: #14a800;
+    color: white;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    border-color: #14a800;
+}
+#ac:hover{
+    background-color: green;
+}
+.av{
+    position: relative;
+    transform: translate(590px,-740px);
+    width: 160px;
+    height: 40px;
+    border-color: #14a800;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.re{
+    position: relative;
+    transform: translate(3px,-700px);
+    font-size: 40px;
+}
+#l{
+    position: relative;
+    transform: translate(2px,-720px);
+    font-size: 18px;
+}
+#rg{
+    position: absolute;
+    top: 1235px ;
+    left: 150px;
+    color: #14a800;
+}
+.totaldiv{
+    width: 100%;
+}
